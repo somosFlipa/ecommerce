@@ -1,0 +1,30 @@
+.imgcarrito{
+    display: inline;
+    position: relative;
+    bottom: 50px;
+    left: 430px;
+}
+
+.imgcarrito img{
+    width: 40px;
+    height: 40px;
+    display: inline;
+    cursor: pointer;
+}
+
+.contador-cantidad{
+    position: relative;
+    display: inline-block;
+    bottom: 96px;
+    font-size: 20px;
+    left: 386px;
+    color: #fff;
+    background-color: #1f9b72c7;
+    border-radius: 20px;
+    height: 30px;
+    width: 25px;
+}
+
+.cart-wid-nav{
+    display: inline;
+}

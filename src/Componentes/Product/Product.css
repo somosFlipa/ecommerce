@@ -1,0 +1,109 @@
+.cards-productos-catalogo {
+    height: 460px;
+    width: 340px;
+    text-align: center;
+    margin: 20px;
+    border: 0px solid #d3d3d3;
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+}
+
+.nombre-productos-catalogo{
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #000;
+    border-radius: 20px;
+}
+
+
+.footer-catalogo {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #000;
+    border-radius: 20px;
+}
+
+.box-productos-catalogo {
+    height: 90%;
+    width: 100%;
+}
+
+.img-productos-catalogo {
+    padding: 10px;
+}
+
+.productos-catalogo-img {
+    width: 300px;
+    height: 300px;
+}
+
+.btn-categoria-item{
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.btn-categoria-item a{
+    color: #000;
+    text-decoration: none;
+    text-transform: none;
+    background-color: #d3d3d3;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 2px;
+    margin-top: 2px;
+}
+
+.btn-categoria-item a:hover{
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+}
+
+.btn-mas-globito{
+    color: #000000cc;
+    display: block;
+    font-size: 20px;
+    margin-left: 140px;
+    background-color: #cfcfcf;
+    border-style: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    cursor: pointer;
+
+    position: relative;
+    bottom: 25px;
+
+}
+
+.btn-mas-globito:hover{
+    color: #fff;
+    background-color: #1f9b72c7;
+}
+
+.btn-menos-globito{
+    color: #000000cc;
+    display: block;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 175px;
+    background-color: #cfcfcf;
+    border-style: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-menos-globito:hover{
+    color: #fff;
+    background-color: #1f9b72c7;
+}

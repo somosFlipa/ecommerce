@@ -1,0 +1,36 @@
+.itemcount{
+    display: inline;
+}
+
+.itemcount div{
+    margin-top: 10px;
+}
+
+.btnmym{
+    width: 50px;
+    color: #ffffff;
+    background-color: #cc095d;
+    cursor: pointer;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.itemcount div input{
+    width: 100px;
+}
+
+.itemcount button{
+    cursor: pointer;
+    background-color: #cc095d;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}

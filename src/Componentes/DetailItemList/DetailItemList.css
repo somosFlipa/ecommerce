@@ -1,0 +1,73 @@
+.cards-producto {
+    height: 420px;
+    width: 340px;
+    margin: 20px;
+}
+
+.nombre-producto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #cc095d;
+    height: 48px;
+    position: relative;
+    bottom: 370px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.info-producto .futura{
+    position: relative;
+    bottom: 230px;
+    text-transform: uppercase;
+    color: #fff;
+    height: 48px;
+    background-color: #cc095d;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #fff;
+    height: 48px;
+    background-color: #cc095d;
+    position: relative;
+    bottom: 100px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.box-producto {
+    height: 90%;
+    width: 100%;
+}
+
+.img-producto {
+    padding: 10px;
+}
+
+.product-img {
+    width: 550px;
+    height: 550px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.info-producto{
+    position: relative;
+    left: 600px;
+}

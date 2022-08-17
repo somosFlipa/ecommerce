@@ -1,0 +1,154 @@
+/* Nav + menu mobile*/
+
+nav{
+    background: #CC095D;
+    height: 80px;
+    width: 100%;
+}
+.enlace{
+    position: relative;
+    margin: 0px 690px 0px 0px;
+    top: 20px;
+}
+.logo{
+    height: 40px;
+}
+nav .ulnav{
+    float: right;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+
+nav .ulnav li{
+    display: inline-block;
+    /*line-height: 80px;
+    margin: 0 5px;*/
+}
+
+nav .ulnav li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+@media (max-width: 952px){
+    .enlace{
+        position: relative;
+        margin: 0px 130px 0px 0px;
+        top: 20px;
+    }
+    nav .ulnav li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    nav .ulnav{
+        position: absolute;
+        width: 100%;
+        background: #cc095d;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        margin-right: 0px;
+        margin-top: 0px;
+        padding: 0;
+
+    }
+
+    nav .ulnav li{
+        display: block;
+        margin: 50px 0;
+        line-height: 6px;
+
+    }
+
+    nav .ulnav li a{
+        font-size: 20px;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    li a:hover, li a.active{
+        background: none;
+    }
+    
+    #check:checked ~ ul{
+        left:0;
+    }
+}
+
+/* MENU Y SUBMENU CATEGORIAS*/
+
+
+.menu{
+    position: relative;
+	display: inline-block;
+}
+
+.menu:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+    
+.menu a{
+    display: block;
+    padding: 10px;
+    color: #353535;
+    font-family: 'Dongle', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #06afa7;
+    transition: all .3s;
+}
+
+
+.submenu{
+
+	display: inline-flex;
+    position: absolute;
+    width: 1%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+    -webkit-transition: opacity 1.5s;
+    -moz-transition: opacity 1.5s;
+    -ms-transition: opacity 1.5s;
+    -o-transition: opacity 1.5s;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.submenu li a{
+    display: inline-block;
+    padding: 1px;
+    color: #fff;
+    font-family: 'Dongle', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+}
